@@ -1,0 +1,203 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Reviews Analysis</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }
+            .movie { margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; border-radius: 5px; background-color: #007bff; color: white; }
+            .title, .description { font-weight: bold; cursor: pointer; }
+            .description { margin-top: 5px; display: none; color: black; } /* 修改字体颜色为黑色并加粗 */
+            h1 { color: #444; }
+        </style>
+        <script>
+            function toggleDescription(movieId) {
+                var description = document.getElementById(movieId);
+                if (description.style.display === "none") {
+                    description.style.display = "block";
+                } else {
+                    description.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Movie Reviews Analysis</h1>
+        <div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_0")'>Avatar</div>
+                            <div id='description_0' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 3691 reviews collected, the average rating is 7.03 stars, the most common rating is 10 stars, with 83.04% of people giving the movie a positive review, the average review length is 264.71 words, and the year 2010 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_1")'>Avengers: Endgame</div>
+                            <div id='description_1' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 9383 reviews collected, the average rating is 7.99 stars, the most common rating is 10 stars, with 89.12% of people giving the movie a positive review, the average review length is 117.21 words, and the year 2019 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_2")'>Avengers: Infinity War</div>
+                            <div id='description_2' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 4514 reviews collected, the average rating is 8.19 stars, the most common rating is 10 stars, with 90.81% of people giving the movie a positive review, the average review length is 147.82 words, and the year 2018 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_3")'>Back to the Future</div>
+                            <div id='description_3' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 1360 reviews collected, the average rating is 9.21 stars, the most common rating is 10 stars, with 99.12% of people giving the movie a positive review, the average review length is 178.53 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_4")'>Blade Runner 2049</div>
+                            <div id='description_4' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 2520 reviews collected, the average rating is 6.91 stars, the most common rating is 10 stars, with 81.27% of people giving the movie a positive review, the average review length is 216.11 words, and the year 2017 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_5")'>Breaking Bad</div>
+                            <div id='description_5' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 4808 reviews collected, the average rating is 9.30 stars, the most common rating is 10 stars, with 95.72% of people giving the movie a positive review, the average review length is 113.33 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_6")'>Cidade de Deus</div>
+                            <div id='description_6' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 1068 reviews collected, the average rating is 8.85 stars, the most common rating is 10 stars, with 97.19% of people giving the movie a positive review, the average review length is 210.24 words, and the year 2003 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_7")'>Dune: Part Two</div>
+                            <div id='description_7' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 1238 reviews collected, the average rating is 8.56 stars, the most common rating is 10 stars, with 95.64% of people giving the movie a positive review, the average review length is 222.31 words, and the year 2024 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_8")'>Everything Everywhere All at Once</div>
+                            <div id='description_8' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 3694 reviews collected, the average rating is 6.32 stars, the most common rating is 10 stars, with 70.17% of people giving the movie a positive review, the average review length is 148.60 words, and the year 2022 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_9")'>Forrest Gump</div>
+                            <div id='description_9' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 2929 reviews collected, the average rating is 8.89 stars, the most common rating is 10 stars, with 95.05% of people giving the movie a positive review, the average review length is 150.72 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_10")'>Friends</div>
+                            <div id='description_10' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1619 reviews collected, the average rating is 8.64 stars, the most common rating is 10 stars, with 89.44% of people giving the movie a positive review, the average review length is 111.37 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_11")'>Harry Potter and the Deathly Hallows: Part 2</div>
+                            <div id='description_11' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 912 reviews collected, the average rating is 8.17 stars, the most common rating is 10 stars, with 93.09% of people giving the movie a positive review, the average review length is 271.51 words, and the year 2011 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_12")'>Harry Potter and the Sorcerer's Stone</div>
+                            <div id='description_12' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1651 reviews collected, the average rating is 7.79 stars, the most common rating is 10 stars, with 93.10% of people giving the movie a positive review, the average review length is 209.84 words, and the year 2001 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_13")'>Inception</div>
+                            <div id='description_13' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 4627 reviews collected, the average rating is 8.20 stars, the most common rating is 10 stars, with 90.60% of people giving the movie a positive review, the average review length is 216.93 words, and the year 2010 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_14")'>Interstellar</div>
+                            <div id='description_14' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 5524 reviews collected, the average rating is 8.10 stars, the most common rating is 10 stars, with 89.12% of people giving the movie a positive review, the average review length is 201.98 words, and the year 2014 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_15")'>Jurassic World</div>
+                            <div id='description_15' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1643 reviews collected, the average rating is 6.27 stars, the most common rating is 8 stars, with 82.84% of people giving the movie a positive review, the average review length is 283.88 words, and the year 2015 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_16")'>Killers of the Flower Moon</div>
+                            <div id='description_16' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1214 reviews collected, the average rating is 6.29 stars, the most common rating is 8 stars, with 81.96% of people giving the movie a positive review, the average review length is 227.74 words, and the year 2023 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_17")'>Leave the World Behind</div>
+                            <div id='description_17' class='description' style='color: black; font-weight: bold;'>This is a mixed reviews movie, with 2038 reviews collected, the average rating is 4.78 stars, the most common rating is 1 stars, with 60.60% of people giving the movie a positive review, the average review length is 172.29 words, and the year 2023 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_18")'>Life Is Beautiful</div>
+                            <div id='description_18' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1274 reviews collected, the average rating is 8.58 stars, the most common rating is 10 stars, with 92.31% of people giving the movie a positive review, the average review length is 166.87 words, and the year 1999 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_19")'>Mission: Impossible - Dead Reckoning Part One</div>
+                            <div id='description_19' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1388 reviews collected, the average rating is 7.06 stars, the most common rating is 10 stars, with 87.90% of people giving the movie a positive review, the average review length is 227.70 words, and the year 2023 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_20")'>Once Upon a Time... in Hollywood</div>
+                            <div id='description_20' class='description' style='color: black; font-weight: bold;'>This is a mixed reviews movie, with 5724 reviews collected, the average rating is 5.95 stars, the most common rating is 10 stars, with 69.85% of people giving the movie a positive review, the average review length is 130.12 words, and the year 2019 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_21")'>Oppenheimer</div>
+                            <div id='description_21' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 3893 reviews collected, the average rating is 7.50 stars, the most common rating is 10 stars, with 87.49% of people giving the movie a positive review, the average review length is 223.59 words, and the year 2023 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_22")'>Spider-Man: No Way Home</div>
+                            <div id='description_22' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 6041 reviews collected, the average rating is 8.26 stars, the most common rating is 10 stars, with 92.12% of people giving the movie a positive review, the average review length is 121.85 words, and the year 2021 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_23")'>Spirited Away</div>
+                            <div id='description_23' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1555 reviews collected, the average rating is 8.79 stars, the most common rating is 10 stars, with 94.53% of people giving the movie a positive review, the average review length is 169.04 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_24")'>Star Wars: Episode IV - A New Hope</div>
+                            <div id='description_24' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1866 reviews collected, the average rating is 8.70 stars, the most common rating is 10 stars, with 94.75% of people giving the movie a positive review, the average review length is 222.09 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_25")'>Star Wars: Episode VII - The Force Awakens</div>
+                            <div id='description_25' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 4698 reviews collected, the average rating is 5.73 stars, the most common rating is 1 stars, with 70.18% of people giving the movie a positive review, the average review length is 323.74 words, and the year 2015 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_26")'>Starship Troopers</div>
+                            <div id='description_26' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 935 reviews collected, the average rating is 6.83 stars, the most common rating is 10 stars, with 79.79% of people giving the movie a positive review, the average review length is 212.44 words, and the year 1999 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_27")'>Stranger Things</div>
+                            <div id='description_27' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 3719 reviews collected, the average rating is 7.79 stars, the most common rating is 10 stars, with 88.03% of people giving the movie a positive review, the average review length is 123.64 words, and the year 2022 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_28")'>Terminator 2: Judgment Day</div>
+                            <div id='description_28' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 1381 reviews collected, the average rating is 9.13 stars, the most common rating is 10 stars, with 98.12% of people giving the movie a positive review, the average review length is 201.82 words, and the year 2019 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_29")'>The Avengers</div>
+                            <div id='description_29' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 2031 reviews collected, the average rating is 7.87 stars, the most common rating is 10 stars, with 91.38% of people giving the movie a positive review, the average review length is 273.84 words, and the year 2012 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_30")'>The Batman</div>
+                            <div id='description_30' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 7997 reviews collected, the average rating is 6.64 stars, the most common rating is 10 stars, with 78.40% of people giving the movie a positive review, the average review length is 142.81 words, and the year 2022 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_31")'>The Big Bang Theory</div>
+                            <div id='description_31' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 1222 reviews collected, the average rating is 6.90 stars, the most common rating is 10 stars, with 77.74% of people giving the movie a positive review, the average review length is 140.44 words, and the year 2019 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_32")'>The Dark Knight</div>
+                            <div id='description_32' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 8415 reviews collected, the average rating is 8.79 stars, the most common rating is 10 stars, with 94.46% of people giving the movie a positive review, the average review length is 203.93 words, and the year 2008 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_33")'>The Godfather</div>
+                            <div id='description_33' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 5179 reviews collected, the average rating is 9.09 stars, the most common rating is 10 stars, with 95.64% of people giving the movie a positive review, the average review length is 143.30 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_34")'>The Green Mile</div>
+                            <div id='description_34' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1867 reviews collected, the average rating is 8.69 stars, the most common rating is 10 stars, with 94.70% of people giving the movie a positive review, the average review length is 159.15 words, and the year 2000 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_35")'>The Last Airbender</div>
+                            <div id='description_35' class='description' style='color: black; font-weight: bold;'>This is a mostly negative reviews movie, with 1655 reviews collected, the average rating is 3.64 stars, the most common rating is 1 stars, with 38.37% of people giving the movie a positive review, the average review length is 253.37 words, and the year 2010 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_36")'>The Lord of the Rings: The Return of the King</div>
+                            <div id='description_36' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 3781 reviews collected, the average rating is 8.98 stars, the most common rating is 10 stars, with 94.87% of people giving the movie a positive review, the average review length is 197.84 words, and the year 2003 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_37")'>The Matrix</div>
+                            <div id='description_37' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 4172 reviews collected, the average rating is 8.54 stars, the most common rating is 10 stars, with 93.46% of people giving the movie a positive review, the average review length is 158.89 words, and the year 1999 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_38")'>The Shawshank Redemption</div>
+                            <div id='description_38' class='description' style='color: black; font-weight: bold;'>This is a praised overwhelmingly movie, with 10000 reviews collected, the average rating is 9.32 stars, the most common rating is 10 stars, with 98.14% of people giving the movie a positive review, the average review length is 122.06 words, and the year 2020 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_39")'>The Walking Dead</div>
+                            <div id='description_39' class='description' style='color: black; font-weight: bold;'>This is a mostly positive reviews movie, with 2535 reviews collected, the average rating is 6.67 stars, the most common rating is 10 stars, with 77.67% of people giving the movie a positive review, the average review length is 162.57 words, and the year 2021 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_40")'>Titanic</div>
+                            <div id='description_40' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 2781 reviews collected, the average rating is 7.51 stars, the most common rating is 10 stars, with 82.60% of people giving the movie a positive review, the average review length is 204.77 words, and the year 1999 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_41")'>Transformers: Rise of the Beasts</div>
+                            <div id='description_41' class='description' style='color: black; font-weight: bold;'>This is a mixed reviews movie, with 805 reviews collected, the average rating is 5.59 stars, the most common rating is 10 stars, with 68.94% of people giving the movie a positive review, the average review length is 197.03 words, and the year 2023 saw the most reviews for this movie.</div>
+                           </div>
+<div class='movie'>
+                            <div class='title' onclick='toggleDescription("description_42")'>True Detective</div>
+                            <div id='description_42' class='description' style='color: black; font-weight: bold;'>This is a highly praised movie, with 1277 reviews collected, the average rating is 7.53 stars, the most common rating is 10 stars, with 85.51% of people giving the movie a positive review, the average review length is 160.96 words, and the year 2019 saw the most reviews for this movie.</div>
+                           </div>
+
+    </body>
+    </html>
+    
